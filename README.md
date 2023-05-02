@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# ReactJS layout boilerplate
+
+ReactJS boilerplate using HoC. Adminstrating state from head smart-component to dummy-component using props
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
