@@ -1,19 +1,27 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-const Body = ({ name, profession, location, navigationLinks })  => (
+const Body = ({ name, profession, location, navigationLinks, routes }) => (
   <>
-    <Navigation links={navigationLinks} />
+    <div className="body-container">
 
-    <div className="body">
-      <div className="body-content">
+      <div className="body-left">
+        <Navigation navigationLinks={navigationLinks} />
+      </div>
+
+      <div className="body-right">
         <h1>Body</h1>
         <h1>{name}</h1>
         <p>{profession}</p>
         <p>{location}</p>
         <p>Hi, I'm {name}. I'm a {profession} based in {location}.</p>
-        <Navigation navigationLinks={navigationLinks} />
+
+        <div>
+          {routes}
+        </div>
+        
       </div>
+
     </div>
   </>
   );

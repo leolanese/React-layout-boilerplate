@@ -1,11 +1,10 @@
 import React, {navigationLinks} from "react";
 import { Link } from 'react-router-dom';
 
-
 function Navigation({ navigationLinks }) {
 
-  if (!navigationLinks) {
-    return null; // or display an error message
+  if (!navigationLinks || !Array.isArray(navigationLinks)) {
+    return null;
   }
   
   return (

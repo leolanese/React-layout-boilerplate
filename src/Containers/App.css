@@ -56,3 +56,21 @@ html, body, #root {
   font-size: 18px;
   margin: 0;
 }
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.body-left {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.body-right {
+  width: 68%;
+}
