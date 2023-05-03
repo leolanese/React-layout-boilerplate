@@ -9,7 +9,7 @@ function Navigation({ navigationLinks }) {
   
   return (
     <nav>
-      <ul>
+      <ul className="navigation-list">
         {navigationLinks.map((link, index) => (
           <li key={index}>
             <Link to={link.url}>{link.text}</Link>
