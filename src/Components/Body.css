@@ -1,0 +1,39 @@
+.body {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+   
+.body-content {
+    flex-grow: 1;
+}
+
+.body h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.body p {
+    font-size: 16px;
+    margin: 0;
+}
+ 
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 15px;
+    max-width: 1200px;
+}
+
+.body-left {
+    width: 30%;
+    margin-right: 2%;
+}
+
+.body-right {
+    width: 68%;
+}
+

@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
+import './Body.css';
 
 const Body = ({ name, profession, location, navigationLinks, routes }) => (
   <>
