@@ -4,7 +4,7 @@ import './App.css';
 import Header from '../Components/Header';
 import Body from '../Components/Body';
 import Footer from '../Components/Footer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from '../Components/Home';
 import About from '../Components/About';
 import Contact from '../Components/Contact';
@@ -14,8 +14,6 @@ const BodyWithLayout = Layout(Body);
 const FooterWithLayout = Layout(Footer);
 
 function App() {
-  const basename = process.env.PUBLIC_URL;
-
   const [title, setTitle] = useState('My Super Website boilerplate');
   const [subTitle, setSubTitle] = useState('A React-powered App');
   const [name, setName] = useState('Leo Lanese');
@@ -37,7 +35,6 @@ function App() {
  
   return (
     <>
-      <BrowserRouter basename={basename}>
         <HeaderWithLayout title={title} 
                           subTitle={subTitle} />
 
@@ -47,7 +44,6 @@ function App() {
                         navigationLinks={navigationLinks}
                         routes={routes} />
         <FooterWithLayout email={email} /> 
-      </BrowserRouter>
     </>
   );
 }
