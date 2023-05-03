@@ -1,0 +1,58 @@
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Body styles */
+html, body, #root {
+  height: 100%;
+}
+
+.body {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content {
+  flex-grow: 1;
+}
+
+.body h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.body p {
+  font-size: 16px;
+  margin: 0;
+}
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.footer p {
+  font-size: 18px;
+  margin: 0;
+}
