@@ -35,15 +35,16 @@ function App() {
  
   return (
     <>
-        <HeaderWithLayout title={title} 
-                          subTitle={subTitle} />
+      <HeaderWithLayout title={title} 
+                        subTitle={subTitle} />
 
-        <BodyWithLayout name={name} 
-                        profession={profession} 
-                        location={location} 
-                        navigationLinks={navigationLinks}
-                        routes={routes} />
-        <FooterWithLayout email={email} /> 
+      <BodyWithLayout name={name} 
+                      profession={profession} 
+                      location={location} 
+                      navigationLinks={navigationLinks}
+                      routes={routes} />
+                      
+      <FooterWithLayout email={email} /> 
     </>
   );
 }
