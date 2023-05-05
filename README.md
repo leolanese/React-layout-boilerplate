@@ -1,4 +1,4 @@
-# ReactJS layout boilerplate
+# ReactJS skeleton layout boilerplate
 
 ReactJS boilerplate using HoC. Adminstrating state from head smart-component to dummy-component using props
 
